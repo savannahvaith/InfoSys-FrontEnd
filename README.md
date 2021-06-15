@@ -7,7 +7,7 @@
 * :heavy_check_mark: Template Literals
 * :heavy_check_mark: ASI
 
-[`02-Flow-Of-Control`](https://github.com/savannahvaith/InfoSys-JavaScript/blob/main/02-Flow-Of-Control.js)
+[`02-Flow-Of-Control`](https://github.com/savannahvaith/InfoSys-JavaScript/blob/main/02-Flow-of-Control.js)
 
 * :heavy_check_mark: Truthy & Falsey
 * :heavy_check_mark: Strict Equality
