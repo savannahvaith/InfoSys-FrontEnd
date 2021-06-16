@@ -103,3 +103,15 @@ console.log(greeting);
 // syntax: (condition) ? valueIFTRUE : valueIfFalse;
 let greeting2 = (now.getHours() > 17) ? `Good Evening` : ` Good Morning`;
 console.log(greeting2);
+
+let age = 71;
+
+if(age<=18){
+console.log("You can enter the club");
+}else if(age>21 && age<70){
+    console.log("welcome back")
+}else{
+    console.log("Go home and sleep");
+}
+
+//! different between || and && 
