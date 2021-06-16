@@ -51,6 +51,11 @@ This repository will look at some of the core functionalities of Web Development
 * :x: Local and Global Scope
 * :x: Explanation of why var is :-1:
 * :x: Flag Example
+* 
+[`04.5-Destructuring`](https://github.com/savannahvaith/InfoSys-JavaScript/blob/main/JS/04.5-Destructuring.js)
+
+* :x: Arrays
+* :x: Objects
 
 [`05-Functions`](https://github.com/savannahvaith/InfoSys-JavaScript/blob/main/JS/05-Functions.js)
 
