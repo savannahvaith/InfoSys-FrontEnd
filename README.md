@@ -1,13 +1,30 @@
-# InfoSys-JavaScript
+# InfoSys-Front-End
 
-[`01-Fundamentals`](https://github.com/savannahvaith/InfoSys-JavaScript/blob/main/01-Fundamentals.js)
+This repository will look at some of the core functionalities of Web Development 
+
+## HTML
+
+* ✔️ Introduction to HTML
+* ✔️ Tags (Paired and Self closing)
+* ✔️ Attributes
+* ✔️ Structural Elements
+* ✔️ Hyperlinking
+* ✔️ Forms
+* ✔️ Input Types
+* ✔️ Lists
+* ✔️ Tables
+
+
+## JavaScript
+
+[`01-Fundamentals`](https://github.com/savannahvaith/InfoSys-JavaScript/blob/main/JS/01-Fundamentals.js)
 
 * :heavy_check_mark: Data Types
 * :heavy_check_mark: Printing information to the console
 * :heavy_check_mark: Template Literals
 * :heavy_check_mark: ASI
 
-[`02-Flow-Of-Control`](https://github.com/savannahvaith/InfoSys-JavaScript/blob/main/02-Flow-of-Control.js)
+[`02-Flow-Of-Control`](https://github.com/savannahvaith/InfoSys-JavaScript/blob/main/JS/02-Flow-of-Control.js)
 
 * :heavy_check_mark: Truthy & Falsey
 * :heavy_check_mark: Strict Equality
