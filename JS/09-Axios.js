@@ -4,13 +4,18 @@ axios
   .get("http://jsonplaceholder.typicode.com/posts/")
   .then((response) => {
     console.log(response.data);
+    const data = response.data
 
     if (!Array.isArray(response.data) ) {
       printToScreen(response.data);
     } else {
-      for (let singleRecord of response.data) {
-        printToScreen(singleRecord);
-      }
+      // for (let singleRecord of response.data) {
+      //   printToScreen(singleRecord);
+      // }
+      data.map((item)=>{
+        printToScreen(item)
+      })
+      
     }
   })
   .catch((err) => {
