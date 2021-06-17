@@ -1,17 +1,24 @@
+
+const params = new URLSearchParams(window.location.search);
+
+const myId = params.get("id");
+
+console.log(myId);
+
 const div = document.querySelector("#records");
 
 axios
-  .get("http://jsonplaceholder.typicode.com/posts/")
+  .get(`http://jsonplaceholder.typicode.com/posts/${myId}`)
   .then((response) => {
     console.log(response.data);
 
-    if (!Array.isArray(response.data) ) {
-      printToScreen(response.data);
-    } else {
-      for (let singleRecord of response.data) {
-        printToScreen(singleRecord);
-      }
-    }
+    // if (!Array.isArray(response.data) ) {
+    //   printToScreen(response.data);
+    // } else {
+    //   for (let singleRecord of response.data) {
+    //     printToScreen(singleRecord);
+    //   }
+    // }
   })
   .catch((err) => {
     console.error(err);
