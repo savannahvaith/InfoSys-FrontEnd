@@ -5,6 +5,7 @@ import MyMain from "./Components/02-Parent-Child/MyMain";
 import Parent from "./Components/03-Props/01-Simple/Parent";
 import PropsWithDifferentTypes from "./Components/03-Props/02-Intermediate/PropsWithDifferentTypes";
 import FirstContactCard from "./Components/03-Props/03-ContactCard/FirstContactCard";
+import Album from "./Components/03-Props/static/Album";
 
 const App =()=> {
   return (
@@ -14,7 +15,9 @@ const App =()=> {
       {/* <MyMain/> */}
       {/* <Parent/> */}
       {/* <PropsWithDifferentTypes/> */}
-      <FirstContactCard/>
+      {/* <FirstContactCard/> */}
+      <Album/>
+
      
     </div>
   );
