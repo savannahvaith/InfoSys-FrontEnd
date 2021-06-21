@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Common Issues</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <br>
+      <br>
+      <br>
+      <form class="subform" method="get" >
+        <label for="fname">Whats your name?</label>
+        <input type="text" id="fname" name="firstName"><br><br>
+        <label for="fname">Whats your password?</label>
+        <input type="text" id="pass" name="firstName"><br><br>
+        <button type="submit" value="Submit">
+      </form>
+      <button onclick="getRid()">get Rid</button>
+      <button onclick="getRecords()">get data</button>
+        <div id="records"></div>
+    </div>
+      
+      
+      <!-- AXIOS SCRIPT -->
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+      <!-- BOOTSTRAP SCRIPT -->
+      <script src="./11-common-issues.js"></script>
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"
+      ></script>
+    </body>
+</html>

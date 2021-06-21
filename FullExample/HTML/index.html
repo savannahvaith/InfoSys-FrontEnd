@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1>Post Data</h1>
+
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      Add a new Animal
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Add new anaimal</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form id="newAnimal"class="form-horizontal">
+              <!-- Form Name -->
+              <legend>Add a new animal</legend>
+
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="textinput"
+                  >Name</label
+                >
+                <div class="col-md-4">
+                  <input
+                    id="animalName"
+                    name="animalName"
+                    type="text"
+                    placeholder="Animal name"
+                    class="form-control input-md"
+                  />
+                </div>
+              </div>
+
+              <!-- Select Basic -->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="selectType"
+                  >Select type</label
+                >
+                <div class="col-md-4">
+                  <select
+                    id="selectType"
+                    name="selectType"
+                    class="form-control"
+                  >
+                    <option selected disabled value="">Select an option</option>
+                    <option value="Cat">Cat</option>
+                    <option value="Dog">Dog</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="ageInput"
+                  >Age</label
+                >
+                <div class="col-md-4">
+                  <input
+                    id="textinput"
+                    name="ageInput"
+                    type="number"
+                    min="0"
+                    max="15"
+                    placeholder="Enter age"
+                    class="form-control input-md"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+              >
+              Close
+            </button>
+            <button type="submit" class="btn btn-primary">Add Animal</button>
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+
+    <div id="animals"></div>
+    <!-- AXIOS URL -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- BOOTSTRAP SCRIPT -->
+    <script src="../JavaScript/Main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
