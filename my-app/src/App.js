@@ -6,6 +6,7 @@ import Parent from "./Components/03-Props/01-Simple/Parent";
 import PropsWithDifferentTypes from "./Components/03-Props/02-Intermediate/PropsWithDifferentTypes";
 import FirstContactCard from "./Components/03-Props/03-ContactCard/FirstContactCard";
 import Album from "./Components/03-Props/static/Album";
+import ClassClock from "./Components/04-LifeCycle/ClassClock";
 
 const App =()=> {
   return (
@@ -16,7 +17,8 @@ const App =()=> {
       {/* <Parent/> */}
       {/* <PropsWithDifferentTypes/> */}
       {/* <FirstContactCard/> */}
-      <Album/>
+      {/* <Album/> */}
+      <ClassClock/>
 
      
     </div>
