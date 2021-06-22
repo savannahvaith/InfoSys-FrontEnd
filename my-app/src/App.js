@@ -13,7 +13,7 @@ import UncontrolledInput from './Components/06-Forms/UncontrolledInput';
 import ControlledInput from "./Components/06-Forms/ControlledInput";
 import SearchList from "./Components/07-LiftingStates/SearchStates/SearchList";
 import FunctionClock from "./Components/08-Hooks/FunctionClock";
-
+import Director from "./Components/09-Routing/Director";
 const App =()=> {
   const date = new Date().toLocaleTimeString();
   return (
@@ -33,7 +33,8 @@ const App =()=> {
       {/* <UncontrolledInput/> */}
       {/* <ControlledInput/> */}
       {/* <SearchList/> */}
-      <FunctionClock/>
+      {/* <FunctionClock/> */}
+      <Director/>
 
 
      
