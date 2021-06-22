@@ -14,6 +14,8 @@ import ControlledInput from "./Components/06-Forms/ControlledInput";
 import SearchList from "./Components/07-LiftingStates/SearchStates/SearchList";
 import FunctionClock from "./Components/08-Hooks/FunctionClock";
 import Director from "./Components/09-Routing/Director";
+import DataRequestExample from "./Components/10-Data-Requests/DataRequestExample";
+
 const App =()=> {
   const date = new Date().toLocaleTimeString();
   return (
@@ -34,7 +36,8 @@ const App =()=> {
       {/* <ControlledInput/> */}
       {/* <SearchList/> */}
       {/* <FunctionClock/> */}
-      <Director/>
+      {/* <Director/> */}
+      <DataRequestExample/>
 
 
      
