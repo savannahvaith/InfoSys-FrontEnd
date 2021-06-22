@@ -12,10 +12,14 @@ import Counter from "./Components/05-States/AddingState/Counter";
 import UncontrolledInput from './Components/06-Forms/UncontrolledInput';
 import ControlledInput from "./Components/06-Forms/ControlledInput";
 import SearchList from "./Components/07-LiftingStates/SearchStates/SearchList";
+import FunctionClock from "./Components/08-Hooks/FunctionClock";
 
 const App =()=> {
+  const date = new Date().toLocaleTimeString();
   return (
     <div className="container">
+
+      <h1>APPP says the time is {date}</h1>
       {/* <MyFirstComponent/> */}
       {/* <MySecondComponent/> */}
       {/* <MyMain/> */}
@@ -28,7 +32,8 @@ const App =()=> {
       {/* <Counter/> */}
       {/* <UncontrolledInput/> */}
       {/* <ControlledInput/> */}
-      <SearchList/>
+      {/* <SearchList/> */}
+      <FunctionClock/>
 
 
      

@@ -24,6 +24,7 @@ const SearchList=()=>{
                 queryFunction={queryHandler}
                 checked={completed}
                 checkHandler={checkHandler}
+                
 
             />
             <List data={list} query={search} completed={completed} />
