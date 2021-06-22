@@ -7,10 +7,15 @@ import PropsWithDifferentTypes from "./Components/03-Props/02-Intermediate/Props
 import FirstContactCard from "./Components/03-Props/03-ContactCard/FirstContactCard";
 import Album from "./Components/03-Props/static/Album";
 import ClassClock from "./Components/04-LifeCycle/ClassClock";
+// import DifferentStates from "./Components/05-States/DifferentStates";
+import Counter from "./Components/05-States/AddingState/Counter";
+import UncontrolledInput from './Components/06-Forms/UncontrolledInput';
+import ControlledInput from "./Components/06-Forms/ControlledInput";
+import SearchList from "./Components/07-LiftingStates/SearchStates/SearchList";
 
 const App =()=> {
   return (
-    <div>
+    <div className="container">
       {/* <MyFirstComponent/> */}
       {/* <MySecondComponent/> */}
       {/* <MyMain/> */}
@@ -18,7 +23,13 @@ const App =()=> {
       {/* <PropsWithDifferentTypes/> */}
       {/* <FirstContactCard/> */}
       {/* <Album/> */}
-      <ClassClock/>
+      {/* <ClassClock/> */}
+      {/* <DifferentStates/> */}
+      {/* <Counter/> */}
+      {/* <UncontrolledInput/> */}
+      {/* <ControlledInput/> */}
+      <SearchList/>
+
 
      
     </div>
